@@ -71,6 +71,10 @@ a:hover {
     color: #F00;
 }
 
+p:hover, h1:hover, h2:hover, h3:hover, q:hover, td:hover, li:hover, footer:hover {
+    color: #FFF;
+} 
+
 footer {
     text-align: center;
     margin: 15px 0;

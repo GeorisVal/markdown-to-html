@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600&family=Righteous&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    background-color:rgb(138, 138, 138);
+}
+
+body {
+    background-color:rgb(20, 20, 20);
+    font-family: Assistant;
 }
 
 .italic {
@@ -16,20 +20,36 @@
     margin-right: auto;
 }
 
+main {
+    background-color:rgba(138, 138, 138, 0.8);
+    width: 75%;
+    margin: 20px 50px;
+    padding: 50px;
+    border-radius: 15px;
+}
+
 #picture { 
-    width: 500px;
+    min-width: 200px;
+    width: 50%;
+    max-width: 500px;
 }
 
 table, th, td {
     border: 1px solid black;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 td {
     padding: 0px 20px;
 }
 
 h1, h2, h3 {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Righteous';
+    margin: 20px 0px 5px 0;
+}
+q {
+    margin-bottom: 20px;
 }
 
 h1 {
